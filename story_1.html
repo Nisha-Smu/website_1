@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <title>Bootstrap Example</title>
+	  
+	 <style>	  
+	  .item {
+		height:50%;;
+	  }
+	  
+	  .carousel-inner {
+		height:100%;
+	  }
+	  
+	 </style>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body style=background-color:#ddd>
+
+	<nav class="navbar navbar-inverse">
+	  <div class="container text-center">
+		<div class="navbar-header">
+		  <a class="navbar-brand" href="#">Cooking Classes</a>
+		</div>
+		<ul class="nav navbar-nav">
+		  <li class="active"><a href="#">Home</a></li>
+		  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Courses<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a href="#">Indian Cuisine</a></li>
+			  <li><a href="#">Snacks</a></li>
+			  <li><a href="#">Western</a></li>
+			</ul>
+		  </li>
+		  <li><a href="#">Page 2</a></li>
+		</ul>
+	  </div>
+	</nav>
+
+	<div class="container">
+		<h1 class="text-center" style="magin: 20px 0;">
+			We are bunch of awesome people working together to make awesome
+		</h1>
+		<br><br><br>
+		<img src="images/main.jpg" class="center-block img-responsive" style="width:90%" />
+		<br><br><br>		
+		<div class="row" style="margin:20px 0;">
+			<div class="col-md-4">
+				<h3>Who we are</h3>
+					<p>
+						We are humans working hard to make awesome courses
+					</p>
+			</div>
+						
+			<div class="col-md-4">
+				<h3>What do we do</h3>
+					<p>
+						We create technical courses which helps people learn new technologies and advance on their careers.
+					</p>
+			</div>
+					
+			<div class="col-md-4">
+				<h3>What we love</h3>
+					<p>
+						Some of them loves extra cup of tea and cuppa and others like to have some beer.
+					</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container text-center" style="bottom:20px; width:100%">
+		Copyright &copy;2018 Pvt.Ltd.All rights are reserved.<a data-toggle="modal" href='#modal-id'>Terms and Conditions</a>
+		<br><br><br>
+		<div class="modal fade" id="modal-id">
+		<div class="modal-dialog">
+		<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true" >&times;</button>
+					<h2 class="modal-title">Terms and Conditions</h2>
+				</div>
+			<div class="modal-body">
+
+				<p>We are a team of tech enthusiats who are determined to make learning easy for everyone.At
+				edureka we believe in awesome work, to make sure we provide great learning experience to our users.</p>
+				<p>Learning is meant to be an enjoyable activity and we put our best to turn it into that if you think the same
+				come and <a href="#">join us</a></p>
+				
+				
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+		</div>
+		</div>
+	</div>
+</body>
+</html>
